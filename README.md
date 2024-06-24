@@ -1,8 +1,8 @@
 # Lidar SLAM Preprocessing
-This is a ROS2 node for preprocessing Lidar data
-(will update a bit later)
-Thanondrak, Mark
-24th June 2024
+This is a ROS2 node for preprocessing Lidar data\
+(will update a bit later)\
+Thanondrak, Mark\
+24th June 2024\
 # Algorithms
 ## Voxel Grid Filter
 ## Passthrough Filter
