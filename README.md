@@ -6,7 +6,7 @@ Thanondrak, Mark\
 # How to launch
 ## Downloading Dataset
 in ros2 workspace\
-	`data/raw_data_downloade.sh`
+	`data/raw_data_downloader.sh`
 ## For bringing up rviz and preferred saved config 
 ros2 launch slam_0_bringup my_rviz.launch.py 
 ## For publishing processed data from kitti dataset
