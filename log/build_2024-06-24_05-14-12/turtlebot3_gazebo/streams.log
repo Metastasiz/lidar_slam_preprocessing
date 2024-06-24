@@ -1,5 +1,0 @@
-[0.041s] Invoking command in '/home/mark/thesis/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/turtlebot3_gazebo -- -j4 -l4
-[0.341s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/obstacle2.dir/all] Interrupt
-[0.341s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/obstacle1.dir/all] Interrupt
-[0.341s] gmake[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/turtlebot3_drive.dir/all] Interrupt
-[0.342s] gmake: *** [Makefile:146: all] Interrupt

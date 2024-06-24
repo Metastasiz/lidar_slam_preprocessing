@@ -1,2 +1,0 @@
-[0m** WARNING ** io features related to pcap will be disabled[0m
-gmake: *** [Makefile:308: cmake_check_build_system] Interrupt

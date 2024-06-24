@@ -1,7 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/2_manual_pcd.dir/src/2_manual_pcd.cpp.o[0m
-[ 75%] Built target 1_import_pcd
-gmake[2]: *** wait: No child processes.  Stop.
-gmake[2]: *** Waiting for unfinished jobs....
-gmake[2]: *** wait: No child processes.  Stop.
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/2_manual_pcd.dir/all] Error 2
-gmake: *** [Makefile:146: all] Interrupt

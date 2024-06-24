@@ -1,9 +1,0 @@
-[ 50%] Built target 1_import_pcd
-[ 75%] [32mBuilding CXX object CMakeFiles/2_manual_pcd.dir/src/2_manual_pcd.cpp.o[0m
-[01m[K/home/mark/thesis/src/slam_1_pc-process/src/2_manual_pcd.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
-[01m[K/home/mark/thesis/src/slam_1_pc-process/src/2_manual_pcd.cpp:24:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcd_file_path[m[K’ was not declared in this scope
-   24 |     std::cout << "Manually created: " << [01;31m[Kpcd_file_path[m[K << std::endl;
-      |                                          [01;31m[K^~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/2_manual_pcd.dir/build.make:76: CMakeFiles/2_manual_pcd.dir/src/2_manual_pcd.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/2_manual_pcd.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

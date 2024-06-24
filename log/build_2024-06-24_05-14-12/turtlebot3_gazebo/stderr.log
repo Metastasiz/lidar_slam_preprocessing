@@ -1,4 +1,0 @@
-gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/obstacle2.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/obstacle1.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/turtlebot3_drive.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

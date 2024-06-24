@@ -1,2 +1,0 @@
-Invoking command in '/home/mark/thesis/build/rtabmap_msgs': /usr/bin/cmake /home/mark/thesis/src/rtabmap_ros/rtabmap_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mark/thesis/install/rtabmap_msgs
-Invoked command in '/home/mark/thesis/build/rtabmap_msgs' returned '1': /usr/bin/cmake /home/mark/thesis/src/rtabmap_ros/rtabmap_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mark/thesis/install/rtabmap_msgs

@@ -1,9 +1,0 @@
-[0.037s] Invoking command in '/home/mark/thesis/build/slam_1_pc-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4
-[0.288s] [ 25%] [32mBuilding CXX object CMakeFiles/2_manual_pcd.dir/src/2_manual_pcd.cpp.o[0m
-[0.310s] [ 75%] Built target 1_import_pcd
-[0.337s] gmake[2]: *** wait: No child processes.  Stop.
-[0.337s] gmake[2]: *** Waiting for unfinished jobs....
-[0.338s] gmake[2]: *** wait: No child processes.  Stop.
-[0.338s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/2_manual_pcd.dir/all] Error 2
-[0.338s] gmake: *** [Makefile:146: all] Interrupt
-[0.349s] Invoked command in '/home/mark/thesis/build/slam_1_pc-process' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4
