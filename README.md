@@ -8,9 +8,9 @@ Thanondrak, Mark
 ## Passthrough Filter
 ## Plane Segmentation
 ## Object Clustering
-# Subscribing
+# Subscription
 ## Kitti Lidar Dataset
-ROS2 node subscribtion: kitti/point_cloud
+ROS2 node subscription: kitti/point_cloud
 # Publishing
 ## Object Clusters
 ROS2 node publishes: cluster_cloud
