@@ -1,0 +1,16 @@
+[0.035s] Invoking command in '/home/mark/thesis/build/slam_1_pc-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4
+[0.185s] [ 16%] Built target 2_manual_pcd
+[0.252s] [ 33%] Built target 1_import_pcd
+[0.269s] [ 50%] Built target 4_passthrough
+[0.270s] [ 66%] Built target 3_voxel_grid
+[0.342s] [35m[1mConsolidate compiler generated dependencies of target 6_clustering[0m
+[0.418s] [ 83%] Built target 5_segmentation
+[0.459s] [ 91%] [32mBuilding CXX object CMakeFiles/6_clustering.dir/src/6_clustering.cpp.o[0m
+[6.651s] [01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[6.651s] [01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:38:56:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[6.652s]    38 |     std::string path_dir_pcd_string     = path_dir_pcd/[01;31m[K;[m[K
+[6.652s]       |                                                        [01;31m[K^[m[K
+[9.034s] gmake[2]: *** [CMakeFiles/6_clustering.dir/build.make:76: CMakeFiles/6_clustering.dir/src/6_clustering.cpp.o] Error 1
+[9.034s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/6_clustering.dir/all] Error 2
+[9.035s] gmake: *** [Makefile:146: all] Error 2
+[9.038s] Invoked command in '/home/mark/thesis/build/slam_1_pc-process' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4

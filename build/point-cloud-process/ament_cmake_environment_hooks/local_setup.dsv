@@ -1,0 +1,2 @@
+source;share/point-cloud-process/environment/ament_prefix_path.sh
+source;share/point-cloud-process/environment/path.sh

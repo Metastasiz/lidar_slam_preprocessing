@@ -1,0 +1,258 @@
+[0.641s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.641s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76b32300d120>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76b32300cb20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76b32300cb20>>)
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.738s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mark/thesis'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_0_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_0_bringup) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_0_bringup) by extension 'ignore_ament_install'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_0_bringup) by extensions ['colcon_pkg']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_0_bringup) by extension 'colcon_pkg'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_0_bringup) by extensions ['colcon_meta']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_0_bringup) by extension 'colcon_meta'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_0_bringup) by extensions ['ros']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_0_bringup) by extension 'ros'
+[0.781s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_0_bringup' with type 'ros.ament_cmake' and name 'slam_0_bringup'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_1_pc-process) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_1_pc-process) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_1_pc-process) by extension 'ignore_ament_install'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_1_pc-process) by extensions ['colcon_pkg']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_1_pc-process) by extension 'colcon_pkg'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_1_pc-process) by extensions ['colcon_meta']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_1_pc-process) by extension 'colcon_meta'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_1_pc-process) by extensions ['ros']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_1_pc-process) by extension 'ros'
+[0.782s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_1_pc-process' with type 'ros.ament_cmake' and name 'slam_1_pc-process'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['ros']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ros'
+[0.785s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.835s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.848s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/mark/ros_ws/install
+[0.851s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/mark/temp/install
+[0.860s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mark/thesis/install
+[0.865s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 412 installed packages in /opt/ros/humble
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.049s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlebot3_gazebo' is in: /home/mark/temp/install/turtlebot3_gazebo, /home/mark/thesis/install/turtlebot3_gazebo, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlebot3_gazebo
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'slam_0_bringup' build argument 'cmake_args' from command line to 'None'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'slam_0_bringup' build argument 'cmake_target' from command line to 'None'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'slam_0_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'slam_0_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'slam_0_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'slam_0_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'slam_0_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'slam_0_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'slam_0_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.051s] DEBUG:colcon.colcon_core.verb:Building package 'slam_0_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mark/thesis/build/slam_0_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mark/thesis/install/slam_0_bringup', 'merge_install': False, 'path': '/home/mark/thesis/src/slam_0_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'slam_1_pc-process' build argument 'cmake_args' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'slam_1_pc-process' build argument 'cmake_target' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'slam_1_pc-process' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'slam_1_pc-process' build argument 'cmake_clean_cache' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'slam_1_pc-process' build argument 'cmake_clean_first' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'slam_1_pc-process' build argument 'cmake_force_configure' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'slam_1_pc-process' build argument 'ament_cmake_args' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'slam_1_pc-process' build argument 'catkin_cmake_args' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'slam_1_pc-process' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.052s] DEBUG:colcon.colcon_core.verb:Building package 'slam_1_pc-process' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mark/thesis/build/slam_1_pc-process', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mark/thesis/install/slam_1_pc-process', 'merge_install': False, 'path': '/home/mark/thesis/src/slam_1_pc-process', 'symlink_install': False, 'test_result_base': None}
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.053s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mark/thesis/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mark/thesis/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/mark/thesis/src/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.053s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.055s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.056s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mark/thesis/src/slam_0_bringup' with build type 'ament_cmake'
+[1.056s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mark/thesis/src/slam_0_bringup'
+[1.063s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.064s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.064s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.071s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mark/thesis/src/slam_1_pc-process' with build type 'ament_cmake'
+[1.072s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mark/thesis/src/slam_1_pc-process'
+[1.072s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.072s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.080s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mark/thesis/src/turtlebot3_gazebo' with build type 'ament_cmake'
+[1.081s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mark/thesis/src/turtlebot3_gazebo'
+[1.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.082s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mark/thesis/build/slam_0_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_0_bringup -- -j4 -l4
+[1.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mark/thesis/build/slam_1_pc-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4
+[1.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mark/thesis/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/turtlebot3_gazebo -- -j4 -l4
+[1.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mark/thesis/build/slam_0_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_0_bringup -- -j4 -l4
+[1.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mark/thesis/build/slam_0_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/slam_0_bringup
+[1.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_0_bringup)
+[1.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mark/thesis/build/slam_0_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/slam_0_bringup
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup' for CMake module files
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup' for CMake config files
+[1.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_0_bringup', 'cmake_prefix_path')
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/hook/cmake_prefix_path.ps1'
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/hook/cmake_prefix_path.dsv'
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/hook/cmake_prefix_path.sh'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup/bin'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup/lib/pkgconfig/slam_0_bringup.pc'
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup/lib/python3.10/site-packages'
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup/bin'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.ps1'
+[1.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.sh'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.bash'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.zsh'
+[1.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mark/thesis/install/slam_0_bringup/share/colcon-core/packages/slam_0_bringup)
+[1.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_0_bringup)
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup' for CMake module files
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup' for CMake config files
+[1.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_0_bringup', 'cmake_prefix_path')
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/hook/cmake_prefix_path.ps1'
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/hook/cmake_prefix_path.dsv'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/hook/cmake_prefix_path.sh'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup/bin'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup/lib/pkgconfig/slam_0_bringup.pc'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup/lib/python3.10/site-packages'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_0_bringup/bin'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.ps1'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.dsv'
+[1.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.sh'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.bash'
+[1.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.zsh'
+[1.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mark/thesis/install/slam_0_bringup/share/colcon-core/packages/slam_0_bringup)
+[1.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mark/thesis/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/turtlebot3_gazebo -- -j4 -l4
+[1.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mark/thesis/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/turtlebot3_gazebo
+[1.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo' for CMake module files
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo' for CMake config files
+[1.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mark/thesis/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/turtlebot3_gazebo
+[1.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[1.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[1.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[1.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[1.713s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo/lib'
+[1.713s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo/bin'
+[1.714s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[1.714s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[1.715s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo/bin'
+[1.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[1.716s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[1.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[1.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[1.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[1.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mark/thesis/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[1.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo' for CMake module files
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo' for CMake config files
+[1.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[1.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo/lib'
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo/bin'
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/turtlebot3_gazebo/bin'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[1.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[1.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mark/thesis/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[20.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mark/thesis/build/slam_1_pc-process' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4
+[20.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_1_pc-process)
+[20.845s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_1_pc-process' for CMake module files
+[20.854s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_1_pc-process' for CMake config files
+[20.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_1_pc-process', 'cmake_prefix_path')
+[20.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/hook/cmake_prefix_path.ps1'
+[20.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/hook/cmake_prefix_path.dsv'
+[20.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/hook/cmake_prefix_path.sh'
+[20.868s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_1_pc-process/lib'
+[20.868s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_1_pc-process/bin'
+[20.869s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_1_pc-process/lib/pkgconfig/slam_1_pc-process.pc'
+[20.870s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_1_pc-process/lib/python3.10/site-packages'
+[20.871s] Level 1:colcon.colcon_core.environment:checking '/home/mark/thesis/install/slam_1_pc-process/bin'
+[20.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/package.ps1'
+[20.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/package.dsv'
+[20.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/package.sh'
+[20.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/package.bash'
+[20.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/package.zsh'
+[20.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mark/thesis/install/slam_1_pc-process/share/colcon-core/packages/slam_1_pc-process)
+[20.902s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.904s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[20.904s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.953s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.953s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.953s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.991s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.992s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mark/thesis/install/local_setup.ps1'
+[20.995s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mark/thesis/install/_local_setup_util_ps1.py'
+[21.002s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mark/thesis/install/setup.ps1'
+[21.013s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mark/thesis/install/local_setup.sh'
+[21.016s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mark/thesis/install/_local_setup_util_sh.py'
+[21.018s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mark/thesis/install/setup.sh'
+[21.021s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mark/thesis/install/local_setup.bash'
+[21.022s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mark/thesis/install/setup.bash'
+[21.025s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mark/thesis/install/local_setup.zsh'
+[21.032s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mark/thesis/install/setup.zsh'

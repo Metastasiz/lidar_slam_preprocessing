@@ -1,0 +1,8 @@
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:89:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::filesystem::__cxx11::path[m[K’ has no member named ‘[01m[Kstr[m[K’; did you mean ‘[01m[Kc_str[m[K’?
+   89 |                 export_pcd(cloud_name.str(),path_dir_pcd.[01;31m[Kstr[m[K(),cylinder_cloud);
+      |                                                          [01;31m[K^~~[m[K
+      |                                                          [32m[Kc_str[m[K
+gmake[2]: *** [CMakeFiles/6_clustering.dir/build.make:76: CMakeFiles/6_clustering.dir/src/6_clustering.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/6_clustering.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

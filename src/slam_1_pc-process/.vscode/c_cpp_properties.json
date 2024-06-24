@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mark/temp/install/turtlebot3_gazebo/include/**",
+        "/home/mark/temp/install/ros2_kitti_publishers/include/**",
+        "/home/mark/thesis/install/turtlebot3_gazebo/include/**",
+        "/home/mark/ros_ws/install/my_ros_interface/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/mark/thesis/src/slam_1_pc-process/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

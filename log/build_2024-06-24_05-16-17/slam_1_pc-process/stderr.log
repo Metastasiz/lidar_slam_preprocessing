@@ -1,0 +1,27 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/3_voxel.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/3_voxel.cpp:37:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpcl::PCLPointCloud2::Ptr[m[K’ {aka ‘[01m[Kstd::shared_ptr<pcl::PCLPointCloud2>[m[K’} to ‘[01m[Kconst PointCloudConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&[m[K’}
+   37 |     voxel_filter.setInputCloud([01;31m[Kcloud[m[K);
+      |                                [01;31m[K^~~~~[m[K
+      |                                [01;31m[K|[m[K
+      |                                [01;31m[Kpcl::PCLPointCloud2::Ptr {aka std::shared_ptr<pcl::PCLPointCloud2>}[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/filters/filter.h:42[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/filters/voxel_grid.h:42[m[K,
+                 from [01m[K/home/mark/thesis/src/slam_1_pc-process/src/3_voxel.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/pcl_base.h:92:48:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::PCLBase<PointT>::setInputCloud(const PointCloudConstPtr&) [with PointT = pcl::PointXYZ; pcl::PCLBase<PointT>::PointCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >][m[K’
+   92 |       setInputCloud ([01;36m[Kconst PointCloudConstPtr &cloud[m[K);
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/3_voxel.cpp:43:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KsavePCDFileASCII(std::string&, pcl::PCLPointCloud2::Ptr&)[m[K’
+   43 |     [01;31m[Kpcl::io::savePCDFileASCII(path_export,cloud)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mark/thesis/src/slam_1_pc-process/src/3_voxel.cpp:4[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:719:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT> int pcl::io::savePCDFileASCII(const string&, const pcl::PointCloud<PointT>&)[m[K’
+  719 |     [01;36m[KsavePCDFileASCII[m[K (const std::string &file_name, const pcl::PointCloud<PointT> &cloud)
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:719:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/3_voxel.cpp:43:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::PCLPointCloud2::Ptr[m[K’ {aka ‘[01m[Kstd::shared_ptr<pcl::PCLPointCloud2>[m[K’} is not derived from ‘[01m[Kconst pcl::PointCloud<PointT>[m[K’
+   43 |     [01;36m[Kpcl::io::savePCDFileASCII(path_export,cloud)[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/3_voxel.dir/build.make:76: CMakeFiles/3_voxel.dir/src/3_voxel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/3_voxel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

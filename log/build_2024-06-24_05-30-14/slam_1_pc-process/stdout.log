@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target 2_manual_pcd[0m
+[35m[1mConsolidate compiler generated dependencies of target 3_voxel[0m
+[ 33%] Built target 1_import_pcd
+[ 66%] Built target 2_manual_pcd
+[ 83%] [32mBuilding CXX object CMakeFiles/3_voxel.dir/src/3_voxel.cpp.o[0m
+[100%] [32m[1mLinking CXX executable 3_voxel[0m
+[100%] Built target 3_voxel
+-- Install configuration: ""
+-- Installing: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/1_import_pcd
+-- Installing: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/2_manual_pcd
+-- Installing: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/3_voxel
+-- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/
+-- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/ament_index/resource_index/package_run_dependencies/slam_1_pc-process
+-- Installing: /home/mark/thesis/install/slam_1_pc-process/share/ament_index/resource_index/parent_prefix_path/slam_1_pc-process
+-- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/ament_prefix_path.sh
+-- Installing: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/path.sh
+-- Installing: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/path.dsv
+-- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.bash
+-- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.sh
+-- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.zsh
+-- Installing: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.dsv
+-- Installing: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/package.dsv
+-- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/ament_index/resource_index/packages/slam_1_pc-process
+-- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/cmake/slam_1_pc-processConfig.cmake
+-- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/cmake/slam_1_pc-processConfig-version.cmake
+-- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/package.xml

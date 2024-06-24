@@ -1,0 +1,22 @@
+[ 50%] Built target plane_cloud
+[100%] Built target pcd_import
+-- Install configuration: ""
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/lib/point-cloud-process/pcd_import
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/lib/point-cloud-process/plane_cloud
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process//launch
+-- Installing: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process//launch/rtab_mapping.launch.py
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/ament_index/resource_index/package_run_dependencies/point-cloud-process
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/ament_index/resource_index/parent_prefix_path/point-cloud-process
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/environment/path.sh
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/environment/path.dsv
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/local_setup.bash
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/local_setup.sh
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/local_setup.zsh
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/local_setup.dsv
+-- Installing: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/package.dsv
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/ament_index/resource_index/packages/point-cloud-process
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/cmake/point-cloud-processConfig.cmake
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/cmake/point-cloud-processConfig-version.cmake
+-- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/package.xml

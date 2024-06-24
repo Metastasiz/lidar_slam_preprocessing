@@ -1,0 +1,7 @@
+[ 14%] Built target 3_voxel_grid
+[ 28%] Built target 4_passthrough
+[ 42%] Built target 2_manual_pcd
+[ 57%] Built target 1_import_pcd
+[ 71%] Built target 5_segmentation
+[ 78%] [32mBuilding CXX object CMakeFiles/7_kitti_voxel.dir/src/7_kitti_voxel.cpp.o[0m
+[ 92%] Built target 6_clustering

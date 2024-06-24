@@ -1,0 +1,30 @@
+[0.033s] Invoking command in '/home/mark/thesis/build/slam_1_pc-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4
+[0.180s] [35m[1mConsolidate compiler generated dependencies of target 3_voxel[0m
+[0.240s] [ 33%] Built target 2_manual_pcd
+[0.260s] [ 50%] [32mBuilding CXX object CMakeFiles/3_voxel.dir/src/3_voxel.cpp.o[0m
+[0.262s] [ 83%] Built target 1_import_pcd
+[5.506s] [100%] [32m[1mLinking CXX executable 3_voxel[0m
+[6.333s] [100%] Built target 3_voxel
+[6.352s] Invoked command in '/home/mark/thesis/build/slam_1_pc-process' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4
+[6.396s] Invoking command in '/home/mark/thesis/build/slam_1_pc-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/slam_1_pc-process
+[6.406s] -- Install configuration: ""
+[6.407s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/1_import_pcd
+[6.407s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/2_manual_pcd
+[6.407s] -- Installing: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/3_voxel
+[6.409s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/
+[6.409s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/ament_index/resource_index/package_run_dependencies/slam_1_pc-process
+[6.409s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/ament_index/resource_index/parent_prefix_path/slam_1_pc-process
+[6.409s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/ament_prefix_path.sh
+[6.409s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/ament_prefix_path.dsv
+[6.409s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/path.sh
+[6.410s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/path.dsv
+[6.410s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.bash
+[6.410s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.sh
+[6.410s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.zsh
+[6.410s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.dsv
+[6.410s] -- Installing: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/package.dsv
+[6.410s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/ament_index/resource_index/packages/slam_1_pc-process
+[6.410s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/cmake/slam_1_pc-processConfig.cmake
+[6.410s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/cmake/slam_1_pc-processConfig-version.cmake
+[6.411s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/package.xml
+[6.414s] Invoked command in '/home/mark/thesis/build/slam_1_pc-process' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/slam_1_pc-process

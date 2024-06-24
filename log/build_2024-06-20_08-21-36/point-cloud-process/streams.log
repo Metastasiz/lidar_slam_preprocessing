@@ -1,0 +1,13 @@
+[0.020s] Invoking command in '/home/mark/thesis/build/point-cloud-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/point-cloud-process -- -j4 -l4
+[0.059s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.338s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.399s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.797s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.806s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.806s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.017s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.025s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.034s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.233s] -- Found Qhull version 8.0.2
+[1.262s] gmake: *** [Makefile:308: cmake_check_build_system] Interrupt
+[1.264s] Invoked command in '/home/mark/thesis/build/point-cloud-process' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/point-cloud-process -- -j4 -l4

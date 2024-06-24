@@ -1,0 +1,11 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/1_import_pcd.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/1_import_pcd.cpp:13:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+   13 |         [01;31m[Kstd[m[K::filesystem::path ros2_ws_path    = std::filesystem::current_path();
+      |         [01;31m[K^~~[m[K
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/1_import_pcd.cpp:14:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_ws_path[m[K’ was not declared in this scope
+   14 |     std::filesystem::path point_cloud_dir = [01;31m[Kros2_ws_path[m[K/"src"/pcd_folder_name;
+      |                                             [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/import_pcd.dir/build.make:76: CMakeFiles/import_pcd.dir/src/1_import_pcd.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/import_pcd.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

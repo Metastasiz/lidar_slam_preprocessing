@@ -1,0 +1,5 @@
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/mark/thesis/src/slam_1_pc-process/src/7_kitti_voxel.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/7_kitti_voxel.dir/build.make:76: CMakeFiles/7_kitti_voxel.dir/src/7_kitti_voxel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/7_kitti_voxel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

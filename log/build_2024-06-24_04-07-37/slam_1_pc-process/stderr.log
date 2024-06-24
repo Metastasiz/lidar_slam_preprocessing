@@ -1,0 +1,15 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/2_manual_pcd.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/2_manual_pcd.cpp:17:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::filesystem[m[K’ has not been declared
+   17 |         std::[01;31m[Kfilesystem[m[K::path path_ros_ws    = std::filesystem::current_path();
+      |              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/2_manual_pcd.cpp:18:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::filesystem[m[K’ has not been declared
+   18 |     std::[01;31m[Kfilesystem[m[K::path path_dir_pcd = path_ros_ws/"src"/pcd_dir_name;
+      |          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/2_manual_pcd.cpp:19:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_dir_pcd[m[K’ was not declared in this scope
+   19 |     std::string pcd_file_path             = [01;31m[Kpath_dir_pcd[m[K/pcd_file_name;
+      |                                             [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/manual_pcd.dir/build.make:76: CMakeFiles/manual_pcd.dir/src/2_manual_pcd.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/manual_pcd.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

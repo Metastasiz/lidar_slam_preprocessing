@@ -1,0 +1,19 @@
+[ 16%] Built target 2_manual_pcd
+[ 33%] Built target 3_voxel_grid
+[ 50%] Built target 1_import_pcd
+[ 66%] Built target 4_passthrough
+[35m[1mConsolidate compiler generated dependencies of target 6_clustering[0m
+[ 83%] Built target 5_segmentation
+[ 91%] [32mBuilding CXX object CMakeFiles/6_clustering.dir/src/6_clustering.cpp.o[0m
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:89:72:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’} to an rvalue of type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+   89 | t_pcd(cloud_name.str(),[01;31m[Kpath_dir_pcd.generic_string()[m[K,cylinder_cloud);
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+[01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:19:59:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid export_pcd(const string&, std::string&, pcl::PointCloud<pcl::PointXYZ>::Ptr)[m[K’
+   19 | ort_pcd(const std::string& file_name,[01;36m[Kstd::string& path[m[K, pcl::PointCloud<PointT>::Ptr cloud_arg){
+      |                                      [01;36m[K~~~~~~~~~~~~~^~~~[m[K
+
+gmake[2]: *** [CMakeFiles/6_clustering.dir/build.make:76: CMakeFiles/6_clustering.dir/src/6_clustering.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/6_clustering.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

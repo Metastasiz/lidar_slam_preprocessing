@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target 3_voxel[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/1_import_pcd.dir/src/1_import_pcd.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/3_voxel.dir/src/3_voxel.cpp.o[0m
+[ 66%] Built target 2_manual_pcd
+[ 83%] [32m[1mLinking CXX executable 1_import_pcd[0m
+[ 83%] Built target 1_import_pcd

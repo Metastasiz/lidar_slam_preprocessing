@@ -1,0 +1,67 @@
+[0.020s] Invoking command in '/home/mark/thesis/build/point-cloud-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/point-cloud-process -- -j4 -l4
+[0.070s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.368s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.433s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.819s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.827s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.827s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.031s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.039s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.046s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.238s] -- Found Qhull version 8.0.2
+[1.434s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.632s] -- looking for PCL_COMMON
+[1.633s] -- looking for PCL_KDTREE
+[1.633s] -- looking for PCL_OCTREE
+[1.634s] -- looking for PCL_SEARCH
+[1.634s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.635s] -- looking for PCL_FILTERS
+[1.636s] -- looking for PCL_2D
+[1.636s] -- looking for PCL_GEOMETRY
+[1.636s] -- looking for PCL_IO
+[1.637s] -- looking for PCL_FEATURES
+[1.638s] -- looking for PCL_ML
+[1.638s] -- looking for PCL_SEGMENTATION
+[1.639s] -- looking for PCL_VISUALIZATION
+[1.640s] -- looking for PCL_SURFACE
+[1.640s] -- looking for PCL_REGISTRATION
+[1.641s] -- looking for PCL_KEYPOINTS
+[1.641s] -- looking for PCL_TRACKING
+[1.642s] -- looking for PCL_RECOGNITION
+[1.643s] -- looking for PCL_STEREO
+[1.643s] -- looking for PCL_APPS
+[1.645s] -- looking for PCL_IN_HAND_SCANNER
+[1.645s] -- looking for PCL_MODELER
+[1.645s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.646s] -- looking for PCL_OUTOFCORE
+[1.647s] -- looking for PCL_PEOPLE
+[1.737s] -- Configuring done
+[1.779s] -- Generating done
+[1.781s] -- Build files have been written to: /home/mark/thesis/build/point-cloud-process
+[1.823s] [35m[1mConsolidate compiler generated dependencies of target plane_cloud[0m
+[1.823s] [35m[1mConsolidate compiler generated dependencies of target pcd_import[0m
+[1.853s] [ 75%] Built target pcd_import
+[1.854s] [100%] Built target plane_cloud
+[1.867s] Invoked command in '/home/mark/thesis/build/point-cloud-process' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/point-cloud-process -- -j4 -l4
+[1.910s] Invoking command in '/home/mark/thesis/build/point-cloud-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/point-cloud-process
+[1.921s] -- Install configuration: ""
+[1.921s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/lib/point-cloud-process/pcd_import
+[1.922s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/lib/point-cloud-process/plane_cloud
+[1.922s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process//launch
+[1.922s] -- Installing: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process//launch/rtab_mapping.launch.py
+[1.922s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/ament_index/resource_index/package_run_dependencies/point-cloud-process
+[1.923s] -- Installing: /home/mark/thesis/install/point-cloud-process/share/ament_index/resource_index/parent_prefix_path/point-cloud-process
+[1.923s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/environment/ament_prefix_path.sh
+[1.923s] -- Installing: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/environment/ament_prefix_path.dsv
+[1.923s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/environment/path.sh
+[1.923s] -- Installing: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/environment/path.dsv
+[1.924s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/local_setup.bash
+[1.924s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/local_setup.sh
+[1.924s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/local_setup.zsh
+[1.924s] -- Installing: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/local_setup.dsv
+[1.924s] -- Installing: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/package.dsv
+[1.924s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/ament_index/resource_index/packages/point-cloud-process
+[1.925s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/cmake/point-cloud-processConfig.cmake
+[1.925s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/cmake/point-cloud-processConfig-version.cmake
+[1.925s] -- Up-to-date: /home/mark/thesis/install/point-cloud-process/share/point-cloud-process/package.xml
+[1.928s] Invoked command in '/home/mark/thesis/build/point-cloud-process' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/point-cloud-process

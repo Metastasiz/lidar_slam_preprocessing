@@ -1,0 +1,31 @@
+[0.045s] Invoking command in '/home/mark/thesis/build/ros2_kitti_publishers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/ros2_kitti_publishers -- -j4 -l4
+[0.459s] [ 50%] Built target ros2_kitti_publishers
+[0.905s] [100%] Built target kitti_publishers
+[1.028s] Invoked command in '/home/mark/thesis/build/ros2_kitti_publishers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/ros2_kitti_publishers -- -j4 -l4
+[1.378s] Invoking command in '/home/mark/thesis/build/ros2_kitti_publishers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/ros2_kitti_publishers
+[1.403s] -- Install configuration: ""
+[1.404s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/include/
+[1.404s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/include//ros2_kitti_publishers
+[1.405s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/include//ros2_kitti_publishers/kitti_publishers_node.hpp
+[1.406s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/include//ros2_kitti_publishers/WGS84toCartesian.hpp
+[1.406s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/include//ros2_kitti_publishers/visibility.h
+[1.407s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/launch
+[1.407s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/launch/README.md
+[1.409s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/lib/libros2_kitti_publishers.so
+[1.413s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/lib/ros2_kitti_publishers/kitti_publishers
+[1.413s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ament_index/resource_index/package_run_dependencies/ros2_kitti_publishers
+[1.413s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ament_index/resource_index/parent_prefix_path/ros2_kitti_publishers
+[1.416s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/ament_prefix_path.sh
+[1.417s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/ament_prefix_path.dsv
+[1.417s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/path.sh
+[1.417s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/path.dsv
+[1.417s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.bash
+[1.417s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.sh
+[1.418s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.zsh
+[1.418s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.dsv
+[1.418s] -- Installing: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/package.dsv
+[1.422s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ament_index/resource_index/packages/ros2_kitti_publishers
+[1.422s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/cmake/ros2_kitti_publishersConfig.cmake
+[1.423s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/cmake/ros2_kitti_publishersConfig-version.cmake
+[1.423s] -- Up-to-date: /home/mark/thesis/install/ros2_kitti_publishers/share/ros2_kitti_publishers/package.xml
+[1.435s] Invoked command in '/home/mark/thesis/build/ros2_kitti_publishers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/ros2_kitti_publishers

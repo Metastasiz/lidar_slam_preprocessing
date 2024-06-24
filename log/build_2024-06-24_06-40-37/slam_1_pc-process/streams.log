@@ -1,0 +1,86 @@
+[0.036s] Invoking command in '/home/mark/thesis/build/slam_1_pc-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4
+[0.228s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.683s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.760s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.476s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.485s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.485s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.697s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.705s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.712s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.023s] -- Found Qhull version 8.0.2
+[2.223s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.418s] -- looking for PCL_COMMON
+[2.419s] -- looking for PCL_KDTREE
+[2.419s] -- looking for PCL_OCTREE
+[2.420s] -- looking for PCL_SEARCH
+[2.421s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.421s] -- looking for PCL_FILTERS
+[2.422s] -- looking for PCL_2D
+[2.423s] -- looking for PCL_GEOMETRY
+[2.423s] -- looking for PCL_IO
+[2.424s] -- looking for PCL_FEATURES
+[2.425s] -- looking for PCL_ML
+[2.425s] -- looking for PCL_SEGMENTATION
+[2.427s] -- looking for PCL_VISUALIZATION
+[2.428s] -- looking for PCL_SURFACE
+[2.429s] -- looking for PCL_REGISTRATION
+[2.430s] -- looking for PCL_KEYPOINTS
+[2.431s] -- looking for PCL_TRACKING
+[2.432s] -- looking for PCL_RECOGNITION
+[2.433s] -- looking for PCL_STEREO
+[2.434s] -- looking for PCL_APPS
+[2.435s] -- looking for PCL_IN_HAND_SCANNER
+[2.436s] -- looking for PCL_MODELER
+[2.436s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.437s] -- looking for PCL_OUTOFCORE
+[2.438s] -- looking for PCL_PEOPLE
+[2.441s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.493s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.498s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.511s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.560s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.679s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.683s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.974s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.487s] -- Configuring done
+[3.751s] -- Generating done
+[3.757s] -- Build files have been written to: /home/mark/thesis/build/slam_1_pc-process
+[3.835s] [35m[1mConsolidate compiler generated dependencies of target 1_import_pcd[0m
+[3.845s] [35m[1mConsolidate compiler generated dependencies of target 3_voxel_grid[0m
+[3.852s] [35m[1mConsolidate compiler generated dependencies of target 4_passthrough[0m
+[3.865s] [35m[1mConsolidate compiler generated dependencies of target 2_manual_pcd[0m
+[3.913s] [  8%] [32mBuilding CXX object CMakeFiles/3_voxel_grid.dir/src/3_voxel_grid.cpp.o[0m
+[3.916s] [ 25%] Built target 1_import_pcd
+[3.953s] [35m[1mConsolidate compiler generated dependencies of target 5_segmentation[0m
+[3.953s] [ 41%] Built target 2_manual_pcd
+[3.954s] [ 50%] [32mBuilding CXX object CMakeFiles/4_passthrough.dir/src/4_passthrough.cpp.o[0m
+[4.039s] [ 58%] [32mBuilding CXX object CMakeFiles/6_clustering.dir/src/6_clustering.cpp.o[0m
+[4.069s] [ 66%] [32mBuilding CXX object CMakeFiles/5_segmentation.dir/src/5_segmentation.cpp.o[0m
+[14.473s] [01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[14.484s] [01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:88:45:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’} to an rvalue of type ‘[01m[Kstd::filesystem::__cxx11::path::string_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[14.484s]    88 |                 export_pcd(cloud_name.str(),[01;31m[Kpath_dir_pcd[m[K,cylinder_cloud);
+[14.484s]       |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[14.485s] In file included from [01m[K/usr/include/c++/11/filesystem:45[m[K,
+[14.485s]                  from [01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:2[m[K:
+[14.485s] [01m[K/usr/include/c++/11/bits/fs_path.h:412:5:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kstd::filesystem::__cxx11::path::operator std::filesystem::__cxx11::path::string_type() const[m[K’
+[14.485s]   412 |     [01;36m[Koperator[m[K string_type() const { return _M_pathname; }
+[14.485s]       |     [01;36m[K^~~~~~~~[m[K
+[14.485s] [01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:19:59:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid export_pcd(const string&, std::string&, pcl::PointCloud<pcl::PointXYZ>::Ptr)[m[K’
+[14.486s]    19 | void export_pcd(const std::string& file_name,[01;36m[Kstd::string& path[m[K, pcl::PointCloud<PointT>::Ptr cloud_arg){
+[14.491s]       |                                              [01;36m[K~~~~~~~~~~~~~^~~~[m[K
+[14.534s] [01m[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:106:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kexport_cloud[m[K’ was not declared in this scope; did you mean ‘[01m[Kexport_pcd[m[K’?
+[14.534s]   106 |     cloud_writer.write<PointT>(path_export,*[01;31m[Kexport_cloud[m[K);
+[14.535s]       |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[14.535s]       |                                             [32m[Kexport_pcd[m[K
+[16.293s] [ 75%] [32m[1mLinking CXX executable 4_passthrough[0m
+[16.344s] [ 83%] [32m[1mLinking CXX executable 5_segmentation[0m
+[16.866s] [ 91%] [32m[1mLinking CXX executable 3_voxel_grid[0m
+[19.181s] [ 91%] Built target 4_passthrough
+[19.203s] [ 91%] Built target 3_voxel_grid
+[19.414s] [ 91%] Built target 5_segmentation
+[19.637s] gmake[2]: *** [CMakeFiles/6_clustering.dir/build.make:76: CMakeFiles/6_clustering.dir/src/6_clustering.cpp.o] Error 1
+[19.637s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/6_clustering.dir/all] Error 2
+[19.638s] gmake: *** [Makefile:146: all] Error 2
+[19.651s] Invoked command in '/home/mark/thesis/build/slam_1_pc-process' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4

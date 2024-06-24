@@ -1,0 +1,94 @@
+[0.062s] Invoking command in '/home/mark/thesis/build/slam_1_pc-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4
+[0.287s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.102s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.244s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.643s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.659s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.660s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[3.451s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.465s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.480s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.001s] -- Found Qhull version 8.0.2
+[4.393s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.665s] -- looking for PCL_COMMON
+[4.667s] -- looking for PCL_KDTREE
+[4.668s] -- looking for PCL_OCTREE
+[4.669s] -- looking for PCL_SEARCH
+[4.670s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.671s] -- looking for PCL_FILTERS
+[4.671s] -- looking for PCL_2D
+[4.672s] -- looking for PCL_GEOMETRY
+[4.673s] -- looking for PCL_IO
+[4.673s] -- looking for PCL_FEATURES
+[4.674s] -- looking for PCL_ML
+[4.675s] -- looking for PCL_SEGMENTATION
+[4.675s] -- looking for PCL_VISUALIZATION
+[4.676s] -- looking for PCL_SURFACE
+[4.677s] -- looking for PCL_REGISTRATION
+[4.678s] -- looking for PCL_KEYPOINTS
+[4.679s] -- looking for PCL_TRACKING
+[4.680s] -- looking for PCL_RECOGNITION
+[4.681s] -- looking for PCL_STEREO
+[4.682s] -- looking for PCL_APPS
+[4.683s] -- looking for PCL_IN_HAND_SCANNER
+[4.684s] -- looking for PCL_MODELER
+[4.685s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.685s] -- looking for PCL_OUTOFCORE
+[4.687s] -- looking for PCL_PEOPLE
+[4.691s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[4.746s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.755s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.769s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.790s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.952s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.960s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.603s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.890s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[6.353s] -- Configuring done
+[6.602s] -- Generating done
+[6.608s] -- Build files have been written to: /home/mark/thesis/build/slam_1_pc-process
+[6.691s] [35m[1mConsolidate compiler generated dependencies of target 3_voxel_grid[0m
+[6.708s] [35m[1mConsolidate compiler generated dependencies of target 2_manual_pcd[0m
+[6.711s] [35m[1mConsolidate compiler generated dependencies of target 1_import_pcd[0m
+[6.714s] [35m[1mConsolidate compiler generated dependencies of target 4_passthrough[0m
+[6.812s] [ 14%] Built target 3_voxel_grid
+[6.818s] [ 28%] Built target 2_manual_pcd
+[6.833s] [ 42%] Built target 4_passthrough
+[6.841s] [ 57%] Built target 1_import_pcd
+[6.858s] [35m[1mConsolidate compiler generated dependencies of target 5_segmentation[0m
+[6.881s] [35m[1mConsolidate compiler generated dependencies of target 6_clustering[0m
+[6.917s] [ 64%] [32mBuilding CXX object CMakeFiles/7_kitti_voxel.dir/src/7_kitti_voxel.cpp.o[0m
+[6.975s] [ 78%] Built target 5_segmentation
+[6.978s] [ 92%] Built target 6_clustering
+[26.709s] [100%] [32m[1mLinking CXX executable 7_kitti_voxel[0m
+[29.438s] [100%] Built target 7_kitti_voxel
+[29.461s] Invoked command in '/home/mark/thesis/build/slam_1_pc-process' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/slam_1_pc-process -- -j4 -l4
+[29.548s] Invoking command in '/home/mark/thesis/build/slam_1_pc-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/slam_1_pc-process
+[29.563s] -- Install configuration: ""
+[29.565s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/1_import_pcd
+[29.566s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/2_manual_pcd
+[29.567s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/3_voxel_grid
+[29.569s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/4_passthrough
+[29.570s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/5_segmentation
+[29.572s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/6_clustering
+[29.572s] -- Installing: /home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/7_kitti_voxel
+[29.582s] -- Set runtime path of "/home/mark/thesis/install/slam_1_pc-process/lib/slam_1_pc-process/7_kitti_voxel" to ""
+[29.583s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/
+[29.583s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/ament_index/resource_index/package_run_dependencies/slam_1_pc-process
+[29.583s] -- Installing: /home/mark/thesis/install/slam_1_pc-process/share/ament_index/resource_index/parent_prefix_path/slam_1_pc-process
+[29.584s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/ament_prefix_path.sh
+[29.585s] -- Installing: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/ament_prefix_path.dsv
+[29.585s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/path.sh
+[29.585s] -- Installing: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/environment/path.dsv
+[29.586s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.bash
+[29.586s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.sh
+[29.586s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.zsh
+[29.586s] -- Installing: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/local_setup.dsv
+[29.587s] -- Installing: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/package.dsv
+[29.591s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/ament_index/resource_index/packages/slam_1_pc-process
+[29.592s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/cmake/slam_1_pc-processConfig.cmake
+[29.595s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/cmake/slam_1_pc-processConfig-version.cmake
+[29.596s] -- Up-to-date: /home/mark/thesis/install/slam_1_pc-process/share/slam_1_pc-process/package.xml
+[29.596s] Invoked command in '/home/mark/thesis/build/slam_1_pc-process' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/mark/thesis/build/slam_1_pc-process

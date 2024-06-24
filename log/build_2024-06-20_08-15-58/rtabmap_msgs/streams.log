@@ -1,0 +1,33 @@
+[0.075s] Invoking command in '/home/mark/thesis/build/rtabmap_msgs': /usr/bin/cmake /home/mark/thesis/src/rtabmap_ros/rtabmap_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mark/thesis/install/rtabmap_msgs
+[0.339s] -- The C compiler identification is GNU 11.4.0
+[0.558s] -- The CXX compiler identification is GNU 11.4.0
+[0.594s] -- Detecting C compiler ABI info
+[0.835s] -- Detecting C compiler ABI info - done
+[0.857s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.858s] -- Detecting C compile features
+[0.859s] -- Detecting C compile features - done
+[0.868s] -- Detecting CXX compiler ABI info
+[1.092s] -- Detecting CXX compiler ABI info - done
+[1.118s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.120s] -- Detecting CXX compile features
+[1.136s] -- Detecting CXX compile features - done
+[1.154s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[1.154s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.155s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.155s]   CMake did not find one.
+[1.155s] 
+[1.155s] -- Configuring incomplete, errors occurred!
+[1.156s] See also "/home/mark/thesis/build/rtabmap_msgs/CMakeFiles/CMakeOutput.log".
+[1.156s]   Could not find a package configuration file provided by "catkin" with any
+[1.156s]   of the following names:
+[1.156s] 
+[1.156s]     catkinConfig.cmake
+[1.157s]     catkin-config.cmake
+[1.157s] 
+[1.157s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.157s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.157s]   provides a separate development package or SDK, be sure it has been
+[1.157s]   installed.
+[1.158s] 
+[1.158s] [0m
+[1.162s] Invoked command in '/home/mark/thesis/build/rtabmap_msgs' returned '1': /usr/bin/cmake /home/mark/thesis/src/rtabmap_ros/rtabmap_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mark/thesis/install/rtabmap_msgs

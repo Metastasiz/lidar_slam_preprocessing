@@ -1,0 +1,405 @@
+[0.000000] (-) TimerEvent: {}
+[0.000638] (slam_0_bringup) JobQueued: {'identifier': 'slam_0_bringup', 'dependencies': OrderedDict()}
+[0.000739] (slam_1_pc-process) JobQueued: {'identifier': 'slam_1_pc-process', 'dependencies': OrderedDict()}
+[0.000816] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000851] (slam_0_bringup) JobStarted: {'identifier': 'slam_0_bringup'}
+[0.015653] (slam_1_pc-process) JobStarted: {'identifier': 'slam_1_pc-process'}
+[0.025037] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.035984] (slam_0_bringup) JobProgress: {'identifier': 'slam_0_bringup', 'progress': 'cmake'}
+[0.038082] (slam_0_bringup) JobProgress: {'identifier': 'slam_0_bringup', 'progress': 'build'}
+[0.038995] (slam_0_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mark/thesis/build/slam_0_bringup', '--', '-j4', '-l4'], 'cwd': '/home/mark/thesis/build/slam_0_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'mark'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mark/temp/install/ros2_kitti_publishers/lib:/home/mark/ros_ws/install/my_ros_02/lib:/home/mark/ros_ws/install/my_ros_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mark'), ('OLDPWD', '/home/mark'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mark/.nvm/versions/node/v22.2.0/bin'), ('NVM_INC', '/home/mark/.nvm/versions/node/v22.2.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1477'), ('SYSTEMD_EXEC_PID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14526'), ('NVM_DIR', '/home/mark/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mark/ros_ws/install:/home/mark/temp/install:/home/mark/thesis/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mark'), ('JOURNAL_STREAM', '8:30335'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mark'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mark/.nvm/versions/node/v22.2.0/bin:/opt/ros/humble/bin:/home/mark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mark-ThinkPad-X240:@/tmp/.ICE-unix/1623,unix/mark-ThinkPad-X240:/tmp/.ICE-unix/1623'), ('INVOCATION_ID', '97ec1d45918a432894bc66276b7b898e'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9DQP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mark/thesis/install/turtlebot3_gazebo:/home/mark/thesis/install/slam_1_pc-process:/home/mark/thesis/install/slam_0_bringup:/home/mark/thesis/install/point-cloud-process:/home/mark/temp/install/turtlebot3_gazebo:/home/mark/temp/install/ros2_kitti_publishers:/home/mark/temp/install/point_cloud_processing:/home/mark/ros_ws/install/my_ros_bringup:/home/mark/ros_ws/install/my_ros_02:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/lifecycle_cpp:/home/mark/ros_ws/install/my_ros_interface:/home/mark/ros_ws/install/my_robot_description:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bcdde061-7189-4888-be91-6dcb6eff3ddd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mark/thesis/build/slam_0_bringup'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mark/ros_ws/install/my_ros_01/lib/python3.10/site-packages:/home/mark/ros_ws/install/my_ros_interface/local/lib/python3.10/dist-packages:/home/mark/ros_ws/install/my_package/lib/python3.10/site-packages:/home/mark/ros_ws/install/lifecycle_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mark/thesis/install/turtlebot3_gazebo:/home/mark/thesis/install/slam_1_pc-process:/home/mark/thesis/install/slam_0_bringup:/home/mark/thesis/install/point-cloud-process:/home/mark/temp/install/turtlebot3_gazebo:/home/mark/temp/install/ros2_kitti_publishers:/home/mark/temp/install/point_cloud_processing:/home/mark/ros_ws/install/my_ros_bringup:/home/mark/ros_ws/install/my_ros_02:/home/mark/ros_ws/install/lifecycle_cpp:/home/mark/ros_ws/install/my_ros_interface:/home/mark/ros_ws/install/my_robot_description:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble')]), 'shell': False}
+[0.044729] (slam_1_pc-process) JobProgress: {'identifier': 'slam_1_pc-process', 'progress': 'cmake'}
+[0.049189] (slam_1_pc-process) JobProgress: {'identifier': 'slam_1_pc-process', 'progress': 'build'}
+[0.049983] (slam_1_pc-process) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mark/thesis/build/slam_1_pc-process', '--', '-j4', '-l4'], 'cwd': '/home/mark/thesis/build/slam_1_pc-process', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'mark'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mark/temp/install/ros2_kitti_publishers/lib:/home/mark/ros_ws/install/my_ros_02/lib:/home/mark/ros_ws/install/my_ros_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mark'), ('OLDPWD', '/home/mark'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mark/.nvm/versions/node/v22.2.0/bin'), ('NVM_INC', '/home/mark/.nvm/versions/node/v22.2.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1477'), ('SYSTEMD_EXEC_PID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14526'), ('NVM_DIR', '/home/mark/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mark/ros_ws/install:/home/mark/temp/install:/home/mark/thesis/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mark'), ('JOURNAL_STREAM', '8:30335'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mark'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mark/.nvm/versions/node/v22.2.0/bin:/opt/ros/humble/bin:/home/mark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mark-ThinkPad-X240:@/tmp/.ICE-unix/1623,unix/mark-ThinkPad-X240:/tmp/.ICE-unix/1623'), ('INVOCATION_ID', '97ec1d45918a432894bc66276b7b898e'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9DQP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mark/thesis/install/turtlebot3_gazebo:/home/mark/thesis/install/slam_1_pc-process:/home/mark/thesis/install/slam_0_bringup:/home/mark/thesis/install/point-cloud-process:/home/mark/temp/install/turtlebot3_gazebo:/home/mark/temp/install/ros2_kitti_publishers:/home/mark/temp/install/point_cloud_processing:/home/mark/ros_ws/install/my_ros_bringup:/home/mark/ros_ws/install/my_ros_02:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/lifecycle_cpp:/home/mark/ros_ws/install/my_ros_interface:/home/mark/ros_ws/install/my_robot_description:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bcdde061-7189-4888-be91-6dcb6eff3ddd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mark/thesis/build/slam_1_pc-process'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mark/ros_ws/install/my_ros_01/lib/python3.10/site-packages:/home/mark/ros_ws/install/my_ros_interface/local/lib/python3.10/dist-packages:/home/mark/ros_ws/install/my_package/lib/python3.10/site-packages:/home/mark/ros_ws/install/lifecycle_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mark/thesis/install/turtlebot3_gazebo:/home/mark/thesis/install/slam_1_pc-process:/home/mark/thesis/install/slam_0_bringup:/home/mark/thesis/install/point-cloud-process:/home/mark/temp/install/turtlebot3_gazebo:/home/mark/temp/install/ros2_kitti_publishers:/home/mark/temp/install/point_cloud_processing:/home/mark/ros_ws/install/my_ros_bringup:/home/mark/ros_ws/install/my_ros_02:/home/mark/ros_ws/install/lifecycle_cpp:/home/mark/ros_ws/install/my_ros_interface:/home/mark/ros_ws/install/my_robot_description:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble')]), 'shell': False}
+[0.058145] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.060924] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[0.061731] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mark/thesis/build/turtlebot3_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/mark/thesis/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'mark'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mark/temp/install/ros2_kitti_publishers/lib:/home/mark/ros_ws/install/my_ros_02/lib:/home/mark/ros_ws/install/my_ros_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mark'), ('OLDPWD', '/home/mark'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mark/.nvm/versions/node/v22.2.0/bin'), ('NVM_INC', '/home/mark/.nvm/versions/node/v22.2.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1477'), ('SYSTEMD_EXEC_PID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14526'), ('NVM_DIR', '/home/mark/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mark/ros_ws/install:/home/mark/temp/install:/home/mark/thesis/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mark'), ('JOURNAL_STREAM', '8:30335'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mark'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mark/.nvm/versions/node/v22.2.0/bin:/opt/ros/humble/bin:/home/mark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mark-ThinkPad-X240:@/tmp/.ICE-unix/1623,unix/mark-ThinkPad-X240:/tmp/.ICE-unix/1623'), ('INVOCATION_ID', '97ec1d45918a432894bc66276b7b898e'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9DQP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mark/thesis/install/turtlebot3_gazebo:/home/mark/thesis/install/slam_1_pc-process:/home/mark/thesis/install/slam_0_bringup:/home/mark/thesis/install/point-cloud-process:/home/mark/temp/install/turtlebot3_gazebo:/home/mark/temp/install/ros2_kitti_publishers:/home/mark/temp/install/point_cloud_processing:/home/mark/ros_ws/install/my_ros_bringup:/home/mark/ros_ws/install/my_ros_02:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/lifecycle_cpp:/home/mark/ros_ws/install/my_ros_interface:/home/mark/ros_ws/install/my_robot_description:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bcdde061-7189-4888-be91-6dcb6eff3ddd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mark/thesis/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mark/ros_ws/install/my_ros_01/lib/python3.10/site-packages:/home/mark/ros_ws/install/my_ros_interface/local/lib/python3.10/dist-packages:/home/mark/ros_ws/install/my_package/lib/python3.10/site-packages:/home/mark/ros_ws/install/lifecycle_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mark/thesis/install/turtlebot3_gazebo:/home/mark/thesis/install/slam_1_pc-process:/home/mark/thesis/install/slam_0_bringup:/home/mark/thesis/install/point-cloud-process:/home/mark/temp/install/turtlebot3_gazebo:/home/mark/temp/install/ros2_kitti_publishers:/home/mark/temp/install/point_cloud_processing:/home/mark/ros_ws/install/my_ros_bringup:/home/mark/ros_ws/install/my_ros_02:/home/mark/ros_ws/install/lifecycle_cpp:/home/mark/ros_ws/install/my_ros_interface:/home/mark/ros_ws/install/my_robot_description:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble')]), 'shell': False}
+[0.098747] (-) TimerEvent: {}
+[0.199117] (-) TimerEvent: {}
+[0.221395] (slam_0_bringup) CommandEnded: {'returncode': 0}
+[0.243185] (slam_1_pc-process) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.292667] (slam_0_bringup) JobProgress: {'identifier': 'slam_0_bringup', 'progress': 'install'}
+[0.299225] (-) TimerEvent: {}
+[0.358747] (slam_0_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mark/thesis/build/slam_0_bringup'], 'cwd': '/home/mark/thesis/build/slam_0_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'mark'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mark/temp/install/ros2_kitti_publishers/lib:/home/mark/ros_ws/install/my_ros_02/lib:/home/mark/ros_ws/install/my_ros_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mark'), ('OLDPWD', '/home/mark'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mark/.nvm/versions/node/v22.2.0/bin'), ('NVM_INC', '/home/mark/.nvm/versions/node/v22.2.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1477'), ('SYSTEMD_EXEC_PID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14526'), ('NVM_DIR', '/home/mark/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mark/ros_ws/install:/home/mark/temp/install:/home/mark/thesis/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mark'), ('JOURNAL_STREAM', '8:30335'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mark'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mark/.nvm/versions/node/v22.2.0/bin:/opt/ros/humble/bin:/home/mark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mark-ThinkPad-X240:@/tmp/.ICE-unix/1623,unix/mark-ThinkPad-X240:/tmp/.ICE-unix/1623'), ('INVOCATION_ID', '97ec1d45918a432894bc66276b7b898e'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9DQP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mark/thesis/install/turtlebot3_gazebo:/home/mark/thesis/install/slam_1_pc-process:/home/mark/thesis/install/slam_0_bringup:/home/mark/thesis/install/point-cloud-process:/home/mark/temp/install/turtlebot3_gazebo:/home/mark/temp/install/ros2_kitti_publishers:/home/mark/temp/install/point_cloud_processing:/home/mark/ros_ws/install/my_ros_bringup:/home/mark/ros_ws/install/my_ros_02:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/lifecycle_cpp:/home/mark/ros_ws/install/my_ros_interface:/home/mark/ros_ws/install/my_robot_description:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bcdde061-7189-4888-be91-6dcb6eff3ddd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mark/thesis/build/slam_0_bringup'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mark/ros_ws/install/my_ros_01/lib/python3.10/site-packages:/home/mark/ros_ws/install/my_ros_interface/local/lib/python3.10/dist-packages:/home/mark/ros_ws/install/my_package/lib/python3.10/site-packages:/home/mark/ros_ws/install/lifecycle_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mark/thesis/install/turtlebot3_gazebo:/home/mark/thesis/install/slam_1_pc-process:/home/mark/thesis/install/slam_0_bringup:/home/mark/thesis/install/point-cloud-process:/home/mark/temp/install/turtlebot3_gazebo:/home/mark/temp/install/ros2_kitti_publishers:/home/mark/temp/install/point_cloud_processing:/home/mark/ros_ws/install/my_ros_bringup:/home/mark/ros_ws/install/my_ros_02:/home/mark/ros_ws/install/lifecycle_cpp:/home/mark/ros_ws/install/my_ros_interface:/home/mark/ros_ws/install/my_robot_description:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble')]), 'shell': False}
+[0.382912] (slam_0_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.387285] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup//launch\n'}
+[0.388974] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup//launch/rtab_mapping.launch.py\n'}
+[0.390348] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/ament_index/resource_index/package_run_dependencies/slam_0_bringup\n'}
+[0.392138] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/ament_index/resource_index/parent_prefix_path/slam_0_bringup\n'}
+[0.394024] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/environment/ament_prefix_path.sh\n'}
+[0.395649] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/environment/ament_prefix_path.dsv\n'}
+[0.397171] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/environment/path.sh\n'}
+[0.398690] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/environment/path.dsv\n'}
+[0.399882] (-) TimerEvent: {}
+[0.400795] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/local_setup.bash\n'}
+[0.402312] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/local_setup.sh\n'}
+[0.404496] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/local_setup.zsh\n'}
+[0.407429] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] Built target turtlebot3_drive\n'}
+[0.408081] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/local_setup.dsv\n'}
+[0.409904] (slam_0_bringup) StdoutLine: {'line': b'-- Installing: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.dsv\n'}
+[0.415195] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/ament_index/resource_index/packages/slam_0_bringup\n'}
+[0.415925] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/cmake/slam_0_bringupConfig.cmake\n'}
+[0.416349] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/cmake/slam_0_bringupConfig-version.cmake\n'}
+[0.416777] (slam_0_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/slam_0_bringup/share/slam_0_bringup/package.xml\n'}
+[0.420859] (slam_0_bringup) CommandEnded: {'returncode': 0}
+[0.500004] (-) TimerEvent: {}
+[0.512852] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] Built target obstacle2\n'}
+[0.514770] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] Built target obstacle1\n'}
+[0.531264] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacles\n'}
+[0.540729] (slam_0_bringup) JobEnded: {'identifier': 'slam_0_bringup', 'rc': 0}
+[0.552388] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[0.600169] (-) TimerEvent: {}
+[0.613113] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[0.614065] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mark/thesis/build/turtlebot3_gazebo'], 'cwd': '/home/mark/thesis/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'mark'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mark/temp/install/ros2_kitti_publishers/lib:/home/mark/ros_ws/install/my_ros_02/lib:/home/mark/ros_ws/install/my_ros_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mark'), ('OLDPWD', '/home/mark'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mark/.nvm/versions/node/v22.2.0/bin'), ('NVM_INC', '/home/mark/.nvm/versions/node/v22.2.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1477'), ('SYSTEMD_EXEC_PID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14526'), ('NVM_DIR', '/home/mark/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mark/ros_ws/install:/home/mark/temp/install:/home/mark/thesis/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mark'), ('JOURNAL_STREAM', '8:30335'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mark'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mark/.nvm/versions/node/v22.2.0/bin:/opt/ros/humble/bin:/home/mark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mark-ThinkPad-X240:@/tmp/.ICE-unix/1623,unix/mark-ThinkPad-X240:/tmp/.ICE-unix/1623'), ('INVOCATION_ID', '97ec1d45918a432894bc66276b7b898e'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9DQP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mark/thesis/install/turtlebot3_gazebo:/home/mark/thesis/install/slam_1_pc-process:/home/mark/thesis/install/slam_0_bringup:/home/mark/thesis/install/point-cloud-process:/home/mark/temp/install/turtlebot3_gazebo:/home/mark/temp/install/ros2_kitti_publishers:/home/mark/temp/install/point_cloud_processing:/home/mark/ros_ws/install/my_ros_bringup:/home/mark/ros_ws/install/my_ros_02:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/lifecycle_cpp:/home/mark/ros_ws/install/my_ros_interface:/home/mark/ros_ws/install/my_robot_description:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bcdde061-7189-4888-be91-6dcb6eff3ddd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mark/thesis/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mark/ros_ws/install/my_ros_01/lib/python3.10/site-packages:/home/mark/ros_ws/install/my_ros_interface/local/lib/python3.10/dist-packages:/home/mark/ros_ws/install/my_package/lib/python3.10/site-packages:/home/mark/ros_ws/install/lifecycle_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mark/thesis/install/turtlebot3_gazebo:/home/mark/thesis/install/slam_1_pc-process:/home/mark/thesis/install/slam_0_bringup:/home/mark/thesis/install/point-cloud-process:/home/mark/temp/install/turtlebot3_gazebo:/home/mark/temp/install/ros2_kitti_publishers:/home/mark/temp/install/point_cloud_processing:/home/mark/ros_ws/install/my_ros_bringup:/home/mark/ros_ws/install/my_ros_02:/home/mark/ros_ws/install/lifecycle_cpp:/home/mark/ros_ws/install/my_ros_interface:/home/mark/ros_ws/install/my_robot_description:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble')]), 'shell': False}
+[0.632121] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.633833] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[0.634437] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch\n'}
+[0.634940] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[0.635399] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[0.635613] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[0.635803] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[0.635997] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[0.636173] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[0.636377] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[0.636706] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[0.636961] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[0.637125] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models\n'}
+[0.637282] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world\n'}
+[0.637593] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls\n'}
+[0.637754] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[0.638026] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[0.638364] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles\n'}
+[0.638614] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[0.638776] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[0.638927] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[0.639101] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box\n'}
+[0.639249] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[0.639386] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[0.639550] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1\n'}
+[0.639693] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[0.639952] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[0.640173] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[0.640329] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[0.640657] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[0.640813] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[0.640972] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[0.641208] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2\n'}
+[0.641428] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[0.641736] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[0.641891] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[0.642125] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle\n'}
+[0.642289] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[0.642482] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[0.642687] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[0.642837] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world\n'}
+[0.643114] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[0.643357] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes\n'}
+[0.643631] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[0.644209] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[0.644582] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[0.644875] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[0.645077] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz\n'}
+[0.645232] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[0.645387] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf\n'}
+[0.645540] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[0.645767] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds\n'}
+[0.646072] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[0.646319] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[0.646482] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/include/\n'}
+[0.646630] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/include//turtlebot3_gazebo\n'}
+[0.646791] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[0.646951] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[0.647143] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[0.647303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[0.647458] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[0.647603] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[0.647748] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[0.647890] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[0.648031] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[0.648173] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[0.648324] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[0.650721] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[0.651086] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[0.651328] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.651609] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.651907] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[0.652815] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[0.653103] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/mark/thesis/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[0.653302] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[0.698167] (slam_1_pc-process) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.700264] (-) TimerEvent: {}
+[0.730888] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[0.775923] (slam_1_pc-process) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.800382] (-) TimerEvent: {}
+[0.900744] (-) TimerEvent: {}
+[1.001131] (-) TimerEvent: {}
+[1.101552] (-) TimerEvent: {}
+[1.202044] (-) TimerEvent: {}
+[1.302814] (-) TimerEvent: {}
+[1.403226] (-) TimerEvent: {}
+[1.492068] (slam_1_pc-process) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.500434] (slam_1_pc-process) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.500801] (slam_1_pc-process) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.503318] (-) TimerEvent: {}
+[1.603644] (-) TimerEvent: {}
+[1.704039] (-) TimerEvent: {}
+[1.712463] (slam_1_pc-process) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.720486] (slam_1_pc-process) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.728040] (slam_1_pc-process) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.804172] (-) TimerEvent: {}
+[1.904635] (-) TimerEvent: {}
+[2.005087] (-) TimerEvent: {}
+[2.038530] (slam_1_pc-process) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.105218] (-) TimerEvent: {}
+[2.205569] (-) TimerEvent: {}
+[2.238420] (slam_1_pc-process) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.305696] (-) TimerEvent: {}
+[2.406050] (-) TimerEvent: {}
+[2.433564] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.434279] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.434937] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.435646] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.436428] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.437142] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.437873] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.438498] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.439047] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.439806] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.440538] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.441181] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.442301] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.443240] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.444296] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.445372] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.446422] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.447437] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.448588] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.449382] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.450807] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.451408] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.451986] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.452919] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.453744] (slam_1_pc-process) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.456836] (slam_1_pc-process) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.506190] (-) TimerEvent: {}
+[2.509208] (slam_1_pc-process) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.513979] (slam_1_pc-process) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.526522] (slam_1_pc-process) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.547352] (slam_1_pc-process) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.576152] (slam_1_pc-process) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.606311] (-) TimerEvent: {}
+[2.694768] (slam_1_pc-process) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.698970] (slam_1_pc-process) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.706431] (-) TimerEvent: {}
+[2.806996] (-) TimerEvent: {}
+[2.907484] (-) TimerEvent: {}
+[2.990031] (slam_1_pc-process) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.007605] (-) TimerEvent: {}
+[3.108050] (-) TimerEvent: {}
+[3.208454] (-) TimerEvent: {}
+[3.308948] (-) TimerEvent: {}
+[3.409408] (-) TimerEvent: {}
+[3.502630] (slam_1_pc-process) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.509529] (-) TimerEvent: {}
+[3.609940] (-) TimerEvent: {}
+[3.710371] (-) TimerEvent: {}
+[3.766524] (slam_1_pc-process) StdoutLine: {'line': b'-- Generating done\n'}
+[3.772986] (slam_1_pc-process) StdoutLine: {'line': b'-- Build files have been written to: /home/mark/thesis/build/slam_1_pc-process\n'}
+[3.810489] (-) TimerEvent: {}
+[3.850548] (slam_1_pc-process) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 1_import_pcd\x1b[0m\n'}
+[3.860557] (slam_1_pc-process) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 3_voxel_grid\x1b[0m\n'}
+[3.868122] (slam_1_pc-process) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 4_passthrough\x1b[0m\n'}
+[3.880914] (slam_1_pc-process) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 2_manual_pcd\x1b[0m\n'}
+[3.911809] (-) TimerEvent: {}
+[3.928295] (slam_1_pc-process) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/3_voxel_grid.dir/src/3_voxel_grid.cpp.o\x1b[0m\n'}
+[3.931380] (slam_1_pc-process) StdoutLine: {'line': b'[ 25%] Built target 1_import_pcd\n'}
+[3.968739] (slam_1_pc-process) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 5_segmentation\x1b[0m\n'}
+[3.969213] (slam_1_pc-process) StdoutLine: {'line': b'[ 41%] Built target 2_manual_pcd\n'}
+[3.970063] (slam_1_pc-process) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/4_passthrough.dir/src/4_passthrough.cpp.o\x1b[0m\n'}
+[4.011932] (-) TimerEvent: {}
+[4.054470] (slam_1_pc-process) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/6_clustering.dir/src/6_clustering.cpp.o\x1b[0m\n'}
+[4.084200] (slam_1_pc-process) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/5_segmentation.dir/src/5_segmentation.cpp.o\x1b[0m\n'}
+[4.112046] (-) TimerEvent: {}
+[4.212458] (-) TimerEvent: {}
+[4.312948] (-) TimerEvent: {}
+[4.413457] (-) TimerEvent: {}
+[4.514028] (-) TimerEvent: {}
+[4.614548] (-) TimerEvent: {}
+[4.715095] (-) TimerEvent: {}
+[4.815651] (-) TimerEvent: {}
+[4.916216] (-) TimerEvent: {}
+[5.016816] (-) TimerEvent: {}
+[5.127099] (-) TimerEvent: {}
+[5.227475] (-) TimerEvent: {}
+[5.328068] (-) TimerEvent: {}
+[5.435126] (-) TimerEvent: {}
+[5.539530] (-) TimerEvent: {}
+[5.639971] (-) TimerEvent: {}
+[5.743116] (-) TimerEvent: {}
+[5.843589] (-) TimerEvent: {}
+[5.944340] (-) TimerEvent: {}
+[6.044908] (-) TimerEvent: {}
+[6.145536] (-) TimerEvent: {}
+[6.246252] (-) TimerEvent: {}
+[6.347318] (-) TimerEvent: {}
+[6.448005] (-) TimerEvent: {}
+[6.548688] (-) TimerEvent: {}
+[6.649369] (-) TimerEvent: {}
+[6.750151] (-) TimerEvent: {}
+[6.850833] (-) TimerEvent: {}
+[6.951514] (-) TimerEvent: {}
+[7.052235] (-) TimerEvent: {}
+[7.153130] (-) TimerEvent: {}
+[7.253771] (-) TimerEvent: {}
+[7.354520] (-) TimerEvent: {}
+[7.455197] (-) TimerEvent: {}
+[7.555880] (-) TimerEvent: {}
+[7.656299] (-) TimerEvent: {}
+[7.757097] (-) TimerEvent: {}
+[7.857888] (-) TimerEvent: {}
+[7.958640] (-) TimerEvent: {}
+[8.059492] (-) TimerEvent: {}
+[8.160136] (-) TimerEvent: {}
+[8.260983] (-) TimerEvent: {}
+[8.361817] (-) TimerEvent: {}
+[8.462619] (-) TimerEvent: {}
+[8.563494] (-) TimerEvent: {}
+[8.664157] (-) TimerEvent: {}
+[8.764745] (-) TimerEvent: {}
+[8.865301] (-) TimerEvent: {}
+[8.965888] (-) TimerEvent: {}
+[9.066418] (-) TimerEvent: {}
+[9.167081] (-) TimerEvent: {}
+[9.267773] (-) TimerEvent: {}
+[9.368615] (-) TimerEvent: {}
+[9.469357] (-) TimerEvent: {}
+[9.569973] (-) TimerEvent: {}
+[9.670774] (-) TimerEvent: {}
+[9.776450] (-) TimerEvent: {}
+[9.876881] (-) TimerEvent: {}
+[9.977314] (-) TimerEvent: {}
+[10.077785] (-) TimerEvent: {}
+[10.178229] (-) TimerEvent: {}
+[10.278680] (-) TimerEvent: {}
+[10.379113] (-) TimerEvent: {}
+[10.479541] (-) TimerEvent: {}
+[10.579974] (-) TimerEvent: {}
+[10.680425] (-) TimerEvent: {}
+[10.780832] (-) TimerEvent: {}
+[10.881295] (-) TimerEvent: {}
+[10.981930] (-) TimerEvent: {}
+[11.082356] (-) TimerEvent: {}
+[11.182797] (-) TimerEvent: {}
+[11.283222] (-) TimerEvent: {}
+[11.383653] (-) TimerEvent: {}
+[11.484350] (-) TimerEvent: {}
+[11.585116] (-) TimerEvent: {}
+[11.685891] (-) TimerEvent: {}
+[11.786703] (-) TimerEvent: {}
+[11.887447] (-) TimerEvent: {}
+[11.988160] (-) TimerEvent: {}
+[12.088971] (-) TimerEvent: {}
+[12.189626] (-) TimerEvent: {}
+[12.290301] (-) TimerEvent: {}
+[12.391004] (-) TimerEvent: {}
+[12.491823] (-) TimerEvent: {}
+[12.592481] (-) TimerEvent: {}
+[12.693143] (-) TimerEvent: {}
+[12.793923] (-) TimerEvent: {}
+[12.894839] (-) TimerEvent: {}
+[12.995258] (-) TimerEvent: {}
+[13.095656] (-) TimerEvent: {}
+[13.196063] (-) TimerEvent: {}
+[13.296481] (-) TimerEvent: {}
+[13.396929] (-) TimerEvent: {}
+[13.497946] (-) TimerEvent: {}
+[13.598396] (-) TimerEvent: {}
+[13.698847] (-) TimerEvent: {}
+[13.799262] (-) TimerEvent: {}
+[13.899933] (-) TimerEvent: {}
+[14.000633] (-) TimerEvent: {}
+[14.101831] (-) TimerEvent: {}
+[14.202624] (-) TimerEvent: {}
+[14.306148] (-) TimerEvent: {}
+[14.412547] (-) TimerEvent: {}
+[14.484479] (slam_1_pc-process) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.498845] (slam_1_pc-process) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:88:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind non-const lvalue reference of type \xe2\x80\x98\x1b[01m\x1b[Kstd::string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99} to an rvalue of type \xe2\x80\x98\x1b[01m\x1b[Kstd::filesystem::__cxx11::path::string_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[14.499960] (slam_1_pc-process) StderrLine: {'line': b'   88 |                 export_pcd(cloud_name.str(),\x1b[01;31m\x1b[Kpath_dir_pcd\x1b[m\x1b[K,cylinder_cloud);\n'}
+[14.500199] (slam_1_pc-process) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.500413] (slam_1_pc-process) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/filesystem:45\x1b[m\x1b[K,\n'}
+[14.500637] (slam_1_pc-process) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:2\x1b[m\x1b[K:\n'}
+[14.500807] (slam_1_pc-process) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/fs_path.h:412:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  after user-defined conversion: \xe2\x80\x98\x1b[01m\x1b[Kstd::filesystem::__cxx11::path::operator std::filesystem::__cxx11::path::string_type() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.500961] (slam_1_pc-process) StderrLine: {'line': b'  412 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K string_type() const { return _M_pathname; }\n'}
+[14.501102] (slam_1_pc-process) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.501241] (slam_1_pc-process) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:19:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid export_pcd(const string&, std::string&, pcl::PointCloud<pcl::PointXYZ>::Ptr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.501406] (slam_1_pc-process) StderrLine: {'line': b'   19 | void export_pcd(const std::string& file_name,\x1b[01;36m\x1b[Kstd::string& path\x1b[m\x1b[K, pcl::PointCloud<PointT>::Ptr cloud_arg){\n'}
+[14.506273] (slam_1_pc-process) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[14.512860] (-) TimerEvent: {}
+[14.549826] (slam_1_pc-process) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/thesis/src/slam_1_pc-process/src/6_clustering.cpp:106:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexport_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kexport_pcd\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[14.550190] (slam_1_pc-process) StderrLine: {'line': b'  106 |     cloud_writer.write<PointT>(path_export,*\x1b[01;31m\x1b[Kexport_cloud\x1b[m\x1b[K);\n'}
+[14.550396] (slam_1_pc-process) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.550584] (slam_1_pc-process) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[Kexport_pcd\x1b[m\x1b[K\n'}
+[14.612997] (-) TimerEvent: {}
+[14.713495] (-) TimerEvent: {}
+[14.813994] (-) TimerEvent: {}
+[14.915292] (-) TimerEvent: {}
+[15.017655] (-) TimerEvent: {}
+[15.119316] (-) TimerEvent: {}
+[15.226922] (-) TimerEvent: {}
+[15.327529] (-) TimerEvent: {}
+[15.428158] (-) TimerEvent: {}
+[15.529055] (-) TimerEvent: {}
+[15.631000] (-) TimerEvent: {}
+[15.731592] (-) TimerEvent: {}
+[15.833922] (-) TimerEvent: {}
+[15.934416] (-) TimerEvent: {}
+[16.034934] (-) TimerEvent: {}
+[16.135411] (-) TimerEvent: {}
+[16.236133] (-) TimerEvent: {}
+[16.308314] (slam_1_pc-process) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable 4_passthrough\x1b[0m\n'}
+[16.336260] (-) TimerEvent: {}
+[16.359214] (slam_1_pc-process) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable 5_segmentation\x1b[0m\n'}
+[16.436399] (-) TimerEvent: {}
+[16.537080] (-) TimerEvent: {}
+[16.637561] (-) TimerEvent: {}
+[16.738179] (-) TimerEvent: {}
+[16.838706] (-) TimerEvent: {}
+[16.881646] (slam_1_pc-process) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable 3_voxel_grid\x1b[0m\n'}
+[16.938827] (-) TimerEvent: {}
+[17.039290] (-) TimerEvent: {}
+[17.139872] (-) TimerEvent: {}
+[17.240439] (-) TimerEvent: {}
+[17.341303] (-) TimerEvent: {}
+[17.443276] (-) TimerEvent: {}
+[17.543990] (-) TimerEvent: {}
+[17.644522] (-) TimerEvent: {}
+[17.745094] (-) TimerEvent: {}
+[17.845747] (-) TimerEvent: {}
+[17.946416] (-) TimerEvent: {}
+[18.047160] (-) TimerEvent: {}
+[18.147657] (-) TimerEvent: {}
+[18.248179] (-) TimerEvent: {}
+[18.348675] (-) TimerEvent: {}
+[18.449128] (-) TimerEvent: {}
+[18.550104] (-) TimerEvent: {}
+[18.650522] (-) TimerEvent: {}
+[18.750953] (-) TimerEvent: {}
+[18.851408] (-) TimerEvent: {}
+[18.951933] (-) TimerEvent: {}
+[19.053007] (-) TimerEvent: {}
+[19.154748] (-) TimerEvent: {}
+[19.196895] (slam_1_pc-process) StdoutLine: {'line': b'[ 91%] Built target 4_passthrough\n'}
+[19.218628] (slam_1_pc-process) StdoutLine: {'line': b'[ 91%] Built target 3_voxel_grid\n'}
+[19.254880] (-) TimerEvent: {}
+[19.355965] (-) TimerEvent: {}
+[19.429669] (slam_1_pc-process) StdoutLine: {'line': b'[ 91%] Built target 5_segmentation\n'}
+[19.456082] (-) TimerEvent: {}
+[19.556547] (-) TimerEvent: {}
+[19.652272] (slam_1_pc-process) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/6_clustering.dir/build.make:76: CMakeFiles/6_clustering.dir/src/6_clustering.cpp.o] Error 1\n'}
+[19.653204] (slam_1_pc-process) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/6_clustering.dir/all] Error 2\n'}
+[19.653433] (slam_1_pc-process) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.656722] (-) TimerEvent: {}
+[19.665965] (slam_1_pc-process) CommandEnded: {'returncode': 2}
+[19.756856] (-) TimerEvent: {}
+[19.836009] (slam_1_pc-process) JobEnded: {'identifier': 'slam_1_pc-process', 'rc': 2}
+[19.848133] (-) EventReactorShutdown: {}

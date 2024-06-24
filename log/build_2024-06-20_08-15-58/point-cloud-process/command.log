@@ -1,0 +1,1 @@
+Invoking command in '/home/mark/thesis/build/point-cloud-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/mark/thesis/build/point-cloud-process -- -j4 -l4

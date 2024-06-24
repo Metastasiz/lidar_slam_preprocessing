@@ -1,0 +1,11 @@
+/home/mark/thesis/build/point-cloud-process/CMakeFiles/uninstall.dir
+/home/mark/thesis/build/point-cloud-process/CMakeFiles/point-cloud-process_uninstall.dir
+/home/mark/thesis/build/point-cloud-process/CMakeFiles/pcd_import.dir
+/home/mark/thesis/build/point-cloud-process/CMakeFiles/plane_cloud.dir
+/home/mark/thesis/build/point-cloud-process/CMakeFiles/test.dir
+/home/mark/thesis/build/point-cloud-process/CMakeFiles/edit_cache.dir
+/home/mark/thesis/build/point-cloud-process/CMakeFiles/rebuild_cache.dir
+/home/mark/thesis/build/point-cloud-process/CMakeFiles/list_install_components.dir
+/home/mark/thesis/build/point-cloud-process/CMakeFiles/install.dir
+/home/mark/thesis/build/point-cloud-process/CMakeFiles/install/local.dir
+/home/mark/thesis/build/point-cloud-process/CMakeFiles/install/strip.dir
