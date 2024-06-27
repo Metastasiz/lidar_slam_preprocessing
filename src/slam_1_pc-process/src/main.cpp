@@ -113,7 +113,7 @@ class VoxelGrid_filter : public rclcpp::Node
 
       pcl::EuclideanClusterExtraction<PointT> euclid_extract_cluster;
       euclid_extract_cluster.setClusterTolerance(0.25); // 2cm
-      euclid_extract_cluster.setMinClusterSize(300);
+      euclid_extract_cluster.setMinClusterSize(600);
       euclid_extract_cluster.setMaxClusterSize(5000);
       euclid_extract_cluster.setSearchMethod(tree);
       euclid_extract_cluster.setInputCloud(plane_cloud);
@@ -135,34 +135,33 @@ class VoxelGrid_filter : public rclcpp::Node
       };
       std::vector<BBox> bbox_list;
 
-      size_t min_cluster_size = 600;
-      size_t max_cluster_size = 2000;
       for (size_t i = 0; i < cluster_indices.size(); i++)
       {
-        if (cluster_indices[i].indices.size() > min_cluster_size && cluster_indices[i].indices.size() < max_cluster_size)
-        {
-          pcl::PointCloud<PointT>::Ptr filtered_cluster (new pcl::PointCloud<PointT>);
-          pcl::IndicesPtr indices(new std::vector<int>(cluster_indices[i].indices.begin(), cluster_indices[i].indices.end()));
+        pcl::PointCloud<PointT>::Ptr each_cluster (new pcl::PointCloud<PointT>);
+        pcl::IndicesPtr indices(new std::vector<int>(
+          cluster_indices[i].indices.begin(), cluster_indices[i].indices.end()));
+        
+        //  Extracting from indices
+        pcl::ExtractIndices<PointT> extract;
+        extract.setInputCloud (plane_cloud);
+        extract.setIndices(indices);
+        extract.setNegative (false);
+        //
+        extract.filter(*each_cluster);
+        
+        all_clusters->operator+=(*each_cluster);
 
-          pcl::ExtractIndices<PointT> extract;
-          extract.setInputCloud (plane_cloud);
-          extract.setIndices(indices);
-          extract.setNegative (false);
-          extract.filter(*filtered_cluster);
-
-          all_clusters->operator+=(*filtered_cluster);
-
-          Eigen::Vector4f min_pt, max_pt;
-          pcl::getMinMax3D<PointT>(*filtered_cluster, min_pt, max_pt);
-          BBox bbox;
-          bbox.x_min = min_pt[0];
-          bbox.y_min = min_pt[1];
-          bbox.z_min = min_pt[2];
-          bbox.x_max = max_pt[0];
-          bbox.y_max = max_pt[1];
-          bbox.z_max = max_pt[2];
-          bbox_list.push_back(bbox);
-        }
+        // adding bbox
+        Eigen::Vector4f min_pt, max_pt;
+        pcl::getMinMax3D<PointT>(*each_cluster, min_pt, max_pt);
+        BBox bbox;
+        bbox.x_min = min_pt[0];
+        bbox.y_min = min_pt[1];
+        bbox.z_min = min_pt[2];
+        bbox.x_max = max_pt[0];
+        bbox.y_max = max_pt[1];
+        bbox.z_max = max_pt[2];
+        bbox_list.push_back(bbox);
       }
     
       //  ********************************    Visualization

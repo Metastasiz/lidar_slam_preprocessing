@@ -94,6 +94,11 @@ int main()
     cloud_writer.write<PointT>(path_export_after,*export_cloud);
     std::cout << "Saved PCD to: " << path_export_before << std::endl;
     std::cout << "Saved PCD to: " << path_export_after << std::endl;
+    
+    pcl::PointCloud<PointT> pc_before = *input_cloud;
+    pcl::PointCloud<PointT> pc_after = *export_cloud;
+    std::cout << "Size before: " << pc_before.size() << std::endl;
+    std::cout << "Size after: " << pc_after.size() << std::endl;
 
   return 0;
 }
