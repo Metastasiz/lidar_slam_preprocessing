@@ -22,15 +22,15 @@
 using namespace std::chrono_literals;
 typedef pcl::PointXYZ PointT;
 
-class VoxelGrid_filter : public rclcpp::Node
+class Pre_processing : public rclcpp::Node
 {
   public:
-    VoxelGrid_filter()
+    Pre_processing()
     : Node("minimal_publisher")
     {
       subscription_ =
       this->create_subscription<sensor_msgs::msg::PointCloud2>(
-        "/kitti/point_cloud", 10, std::bind(&VoxelGrid_filter::timer_callback, this, std::placeholders::_1));
+        "/kitti/point_cloud", 10, std::bind(&Pre_processing::timer_callback, this, std::placeholders::_1));
 
       publisher_ =
       this->create_publisher<sensor_msgs::msg::PointCloud2>(
@@ -321,7 +321,7 @@ class VoxelGrid_filter : public rclcpp::Node
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<VoxelGrid_filter>());
+  rclcpp::spin(std::make_shared<Pre_processing>());
   rclcpp::shutdown();
   return 0;
 }
