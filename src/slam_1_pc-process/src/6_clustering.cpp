@@ -17,7 +17,8 @@
 
 typedef pcl::PointXYZ PointT;
 
-void export_pcd(const std::string& file_name,std::string& path, pcl::PointCloud<PointT>::Ptr cloud_arg){
+void export_pcd(const std::string& file_name,std::string& path, 
+                pcl::PointCloud<PointT>::Ptr cloud_arg){
     pcl::PCDWriter cloud_writer;
     cloud_writer.write<PointT>(path+std::string(file_name),*cloud_arg);
     std::cout << "Saved PCD to: " << path+std::string(file_name) << std::endl;
@@ -61,12 +62,13 @@ int main()
     euclid_extract_cluster.setInputCloud(input_cloud);
     euclid_extract_cluster.extract(cluster_indices);
 
-    //  ********************************    Filtering Cluster by Size
+    //  ********************************    Save each Cluster
     int loop_counter = 1;
     for (size_t i = 0; i < cluster_indices.size(); i++)
     {
-        pcl::PointCloud<PointT>::Ptr filtered_cluster (new pcl::PointCloud<PointT>);
-        pcl::IndicesPtr indices (new std::vector<int>(cluster_indices[i].indices.begin(), cluster_indices[i].indices.end()));
+        pcl::PointCloud<PointT>::Ptr each_cluster (new pcl::PointCloud<PointT>);
+        pcl::IndicesPtr indices (new std::vector<int>(
+          cluster_indices[i].indices.begin(), cluster_indices[i].indices.end()));
         
         //  Extracting from indices
         pcl::ExtractIndices<PointT> extract;
@@ -74,16 +76,16 @@ int main()
         extract.setNegative(false);
         //
         extract.setInputCloud(input_cloud);
-        extract.filter(*filtered_cluster);
+        extract.filter(*each_cluster);
 
         // ********************************   Export PCD (each cluster)
         std::stringstream cloud_name;
         cloud_name << "6_cluster_" << loop_counter << ".pcd";
-        export_pcd(cloud_name.str(),path_dir_pcd_string,filtered_cluster);
+        export_pcd(cloud_name.str(),path_dir_pcd_string,each_cluster);
         loop_counter++;
 
         // Add filtered cluster to filtered cluster group (export_cloud)
-        export_cloud->operator+=(*filtered_cluster);
+        export_cloud->operator+=(*each_cluster);
     }
 
     // ********************************   Export PCD
