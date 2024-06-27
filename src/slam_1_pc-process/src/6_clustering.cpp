@@ -51,14 +51,11 @@ int main()
     std::vector<pcl::PointIndices> cluster_indices;
     pcl::search::KdTree<PointT>::Ptr tree (new pcl::search::KdTree<PointT> ());
 
-    size_t min_cluster_size = 150;
-    size_t max_cluster_size = 2000;
-
     //  Extract indices using EC with K-D tree method
     pcl::EuclideanClusterExtraction<PointT> euclid_extract_cluster;
     euclid_extract_cluster.setClusterTolerance(0.25); // 2cm
-    euclid_extract_cluster.setMinClusterSize(min_cluster_size);
-    euclid_extract_cluster.setMaxClusterSize(max_cluster_size);
+    euclid_extract_cluster.setMinClusterSize(150);
+    euclid_extract_cluster.setMaxClusterSize(2000);
     euclid_extract_cluster.setSearchMethod(tree);
     //
     euclid_extract_cluster.setInputCloud(input_cloud);
@@ -68,15 +65,13 @@ int main()
     int loop_counter = 1;
     for (size_t i = 0; i < cluster_indices.size(); i++)
     {
-      if (cluster_indices[i].indices.size() > min_cluster_size && cluster_indices[i].indices.size() < max_cluster_size)
-      {
         pcl::PointCloud<PointT>::Ptr filtered_cluster (new pcl::PointCloud<PointT>);
         pcl::IndicesPtr indices (new std::vector<int>(cluster_indices[i].indices.begin(), cluster_indices[i].indices.end()));
         
         //  Extracting from indices
         pcl::ExtractIndices<PointT> extract;
         extract.setIndices(indices);
-        extract.setNegative (false);
+        extract.setNegative(false);
         //
         extract.setInputCloud(input_cloud);
         extract.filter(*filtered_cluster);
@@ -89,7 +84,6 @@ int main()
 
         // Add filtered cluster to filtered cluster group (export_cloud)
         export_cloud->operator+=(*filtered_cluster);
-      }
     }
 
     // ********************************   Export PCD
