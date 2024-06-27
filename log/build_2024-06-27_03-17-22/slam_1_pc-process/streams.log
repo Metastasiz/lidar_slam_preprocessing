@@ -1,0 +1,55 @@
+[0.032s] Invoking command in '/home/mark/thesis/build/slam_1_pc-process': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake /home/mark/thesis/src/slam_1_pc-process -DCMAKE_INSTALL_PREFIX=/home/mark/thesis/install/slam_1_pc-process
+[0.281s] -- The C compiler identification is GNU 11.4.0
+[0.512s] -- The CXX compiler identification is GNU 11.4.0
+[0.559s] -- Detecting C compiler ABI info
+[0.871s] -- Detecting C compiler ABI info - done
+[0.907s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.909s] -- Detecting C compile features
+[0.911s] -- Detecting C compile features - done
+[0.925s] -- Detecting CXX compiler ABI info
+[1.269s] -- Detecting CXX compiler ABI info - done
+[1.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.316s] -- Detecting CXX compile features
+[1.326s] -- Detecting CXX compile features - done
+[1.358s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.793s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.122s] -- Checking for module 'eigen3'
+[3.231s] --   Found eigen3, version 3.4.0
+[3.398s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.401s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.524s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[3.616s] -- Checking for module 'flann'
+[3.689s] --   Found flann, version 1.9.1
+[3.945s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.946s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.200s] -- Looking for pthread.h
+[4.267s] Invoked command in '/home/mark/thesis/build/slam_1_pc-process' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/ros_ws/install/my_ros_01:/home/mark/ros_ws/install/my_package:/home/mark/ros_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake /home/mark/thesis/src/slam_1_pc-process -DCMAKE_INSTALL_PREFIX=/home/mark/thesis/install/slam_1_pc-process
+[4.274s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+TypeError: argument of type 'NoneType' is not iterable

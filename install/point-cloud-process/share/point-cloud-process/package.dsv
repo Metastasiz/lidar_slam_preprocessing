@@ -1,8 +1,0 @@
-source;share/point-cloud-process/hook/cmake_prefix_path.ps1
-source;share/point-cloud-process/hook/cmake_prefix_path.dsv
-source;share/point-cloud-process/hook/cmake_prefix_path.sh
-source;share/point-cloud-process/local_setup.bash
-source;share/point-cloud-process/local_setup.dsv
-source;share/point-cloud-process/local_setup.ps1
-source;share/point-cloud-process/local_setup.sh
-source;share/point-cloud-process/local_setup.zsh
