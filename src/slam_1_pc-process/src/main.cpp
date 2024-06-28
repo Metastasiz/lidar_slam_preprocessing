@@ -26,7 +26,7 @@ class Pre_processing : public rclcpp::Node
 {
   public:
     Pre_processing()
-    : Node("minimal_publisher")
+    : Node("pre_processing")
     {
       subscription_ =
       this->create_subscription<sensor_msgs::msg::PointCloud2>(
@@ -310,12 +310,9 @@ class Pre_processing : public rclcpp::Node
 
       publisher_->publish(ros2_cluster_cloud);
     }
-  rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr publisher_marker;
   rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr publisher_;
   rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr subscription_;
-
-  size_t count_;
 };
 
 int main(int argc, char * argv[])
