@@ -1,4 +1,5 @@
 # Lidar SLAM Preprocessing
+For full documentation, please see the documentation.pdf\
 This is a ROS2 node for preprocessing Lidar data\
 Thanondrak, Mark\
 24th June 2024
